@@ -50,6 +50,7 @@
   },
   "scripts": {
     "build": "babel src/Collapsible.js > dist/Collapsible.js",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postinstall": "npm run build"
   }
 }
